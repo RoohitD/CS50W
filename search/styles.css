@@ -1,0 +1,36 @@
+input[type="text"] {
+    border-radius: 20px;
+    padding: 0.8vw;
+    min-width: 500px;
+    box-sizing: border-box;
+}
+
+#search-elements {
+    align-items: center;
+    display: flex;
+    flex-direction: column; /* Change to column */
+    justify-content: center;
+    height: 100vh;
+    text-align: center; /* Add text-align: center */
+    border-radius: 20px;
+}
+
+#search-buttons {
+    padding: 1vw;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+a {
+    padding: 25px;
+    padding-left: 25px;
+}
+
+form {
+    display: inline-block;
+}
+
+#link-element {
+    padding-top: 15px;
+    align-items: end;
+}

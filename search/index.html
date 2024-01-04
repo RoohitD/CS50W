@@ -2,11 +2,27 @@
 <html lang="en">
     <head>
         <title>Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <form action="https://google.com/search">
-            <input type="text" name="q">
-            <input type="submit" value="Google Search">
-        </form>
+        <div>
+            <ul class="navbar">
+                <li class="navbar-item-google"><a href="image.html">Image</a></li>
+                <li class="navbar-item-google"><a href="advance.html">Advanced</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="center-div">
+                <img src="/Users/rohitdeshmukh/Desktop/Coding_Projects/Web_Development_CS50/CS50W/search/Google 2015 logo.svg.png" alt="Google 2015 Logo" height="92" width="272">
+            </div>
+            
+            <form action="https://google.com/search" >
+                <input type="text" name="q" class="input-des">
+                <div class="center-div">
+                    <input type="submit" value="Google Search" class="submit-button">
+                    <input type="submit" value="I'm Feeling Lucky" class="submit-button">
+                </div>
+            </form>
+        </div>
     </body>
 </html>

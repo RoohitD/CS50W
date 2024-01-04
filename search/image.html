@@ -2,9 +2,27 @@
 <html lang="en">
     <head>
         <title>Image Search</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <h3>This is the image search page</h3>
+        <div>
+            <ul class="navbar">
+                <li class="navbar-item-google"><a href="index.html">Search</a></li>
+                <li class="navbar-item-google"><a href="advance.html">Advanced</a></li>
+            </ul>
+        </div>
+        <div>
+            <div class="center-div">
+                <img src="/Users/rohitdeshmukh/Desktop/Coding_Projects/Web_Development_CS50/CS50W/search/Google logo 2015.svg.png" alt="Google 2015 Logo" height="92" width="272">
+            </div>
+            <form action="https://google.com/search" >
+                <input type="text" name="q" class="input-des">
+                <input type="hidden" name="tbm" value="isch">
+                <div class="center-div">
+                    <input type="submit" value="Google Image" class="submit-button">
+                </div>
+            </form>
+        </div>
     </body>
 </html>
 
